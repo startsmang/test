@@ -1,7 +1,16 @@
 import requests
 import pytest
+
+from common.yaml_util import YamlUtil
+
+
 class TestSendRequest:
-    token = ""
+
+
+    def get_session(self):
+        session = requests.session()
+        return session
+
     def test_get_token(self):
         url = 'https://jxh-api.zx1026.com//User/Login/getToken'
         headers = {
@@ -15,22 +24,24 @@ class TestSendRequest:
         "login_type": "2",
         "user_type": "1",
         }
-        response = requests.get(url = url,headers=headers,params=params)
-        TestSendRequest.token = response.json()['data']['token']
-        print(TestSendRequest.token)
+        response = self.get_session().request("get",url = url,headers=headers,params=params)
+        token = response.json()['data']['token']
+        print(token)
+        YamlUtil().write_extract_yaml({'token':token})
     def test_obtain_woke_number(self):
         url = "https://jxh-api.zx1026.com//ProblemTicket/Emergency/getInfo"
         headers ={
-            "token":TestSendRequest.token,
+            "token":YamlUtil().read_extract_yaml（'token'）,
             "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edg/110.0.1587.41",
 
         }
         params = {
         "id":"2433"
         }
-        res = requests.request("get",url = url ,params=params,headers = headers).json()['data']['work_number']
+        res = self.get_session().request("get",url = url ,params=params,headers = headers).json()['data']['work_number']
         print(res)
-    def test_file_upload(self):
+    @pytest.mark.smoke
+    def test_file_upload(self,conn_database):
         url = 'https://jxh-api.zx1026.com//Common/Upload/file'
         headers = {
         'token':TestSendRequest.token,
@@ -40,9 +51,8 @@ class TestSendRequest:
             "file" : open("D:/MyGit/img/01c8f15aeac135a801207fa16836ae.jpg@1280w_1l_2o_100sh.jpg", 'rb')
         }
 
-        res = requests.request("post",url=url,headers=headers,files=data).json()['data']['url']
+        res = self.get_session().request("post",url=url,headers=headers,files=data).json()['data']['url']
         print(res)
-if __name__ == '__main__':
-    pytest.main([ 'vs'])
+
 
 
