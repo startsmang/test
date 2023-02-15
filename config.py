@@ -43,6 +43,6 @@ class TestSendRequest:
         res = requests.request("post",url=url,headers=headers,files=data).json()['data']['url']
         print(res)
 if __name__ == '__main__':
-    pytest.main([ 'vs'])
+    pytest.main([ ' '])
 
 
