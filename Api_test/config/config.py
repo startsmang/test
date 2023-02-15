@@ -2,6 +2,12 @@ import requests
 import pytest
 class TestSendRequest:
     token = ""
+
+
+    def get_session(self):
+        session = requests.session()
+        return session
+
     def test_get_token(self):
         url = 'https://jxh-api.zx1026.com//User/Login/getToken'
         headers = {
@@ -15,7 +21,7 @@ class TestSendRequest:
         "login_type": "2",
         "user_type": "1",
         }
-        response = requests.get(url = url,headers=headers,params=params)
+        response = self.get_session().request("get",url = url,headers=headers,params=params)
         TestSendRequest.token = response.json()['data']['token']
         print(TestSendRequest.token)
     def test_obtain_woke_number(self):
@@ -28,7 +34,7 @@ class TestSendRequest:
         params = {
         "id":"2433"
         }
-        res = requests.request("get",url = url ,params=params,headers = headers).json()['data']['work_number']
+        res = self.get_session().request("get",url = url ,params=params,headers = headers).json()['data']['work_number']
         print(res)
     def test_file_upload(self):
         url = 'https://jxh-api.zx1026.com//Common/Upload/file'
@@ -40,7 +46,7 @@ class TestSendRequest:
             "file" : open("D:/MyGit/img/01c8f15aeac135a801207fa16836ae.jpg@1280w_1l_2o_100sh.jpg", 'rb')
         }
 
-        res = requests.request("post",url=url,headers=headers,files=data).json()['data']['url']
+        res = self.get_session().request("post",url=url,headers=headers,files=data).json()['data']['url']
         print(res)
 if __name__ == '__main__':
     pytest.main([ 'vs'])
