@@ -10,7 +10,7 @@ class YamlUtil:
             return value[key]
     #     写入extract.yml
     def  write_extract_yaml(self,data):
-        with open (os.getcwd()+".\extract.yml",mode = 'a',encoding='utf-8')as f :
+        with open (os.getcwd()+".\extract.yml",mode = 'ab',encoding='utf-8')as f :
             yaml.dump(data=data,stream= f,allow_unicode=True)
 
     # 清除extratt.yml文件

@@ -10,7 +10,7 @@ class TestSendRequest:
     def get_session(self):
         session = requests.session()
         return session
-
+    @pytest.mark.paramtrize(arg_name,arg_value)
     def test_get_token(self):
         url = 'https://jxh-api.zx1026.com//User/Login/getToken'
         headers = {
