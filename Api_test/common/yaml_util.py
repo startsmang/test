@@ -19,7 +19,7 @@ class YamlUtil:
             f.truncate()
 #     读取测试用例的yml文件
     def read_test_yaml (self,yaml_name):
-        with open(os.getcwd()+"./testcases/"+yaml_name,mode='r',encoding='utf-8')as f:
+        with open("D:/MyGit/test/Api_test/testcases/temp/"+yaml_name,mode='r',encoding='utf-8')as f:
             value = yaml.load(stream=f,Loader=yaml.FullLoader)
             return value
 
