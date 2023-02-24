@@ -16,6 +16,7 @@ from common.read_exce_yaml_caes import get_yaml_excle_caes
 class Test():
 
     @pytest.mark.parametrize("case",get_yaml_excle_caes('test'))
+    @pytest.mark.parametrize("")
     @allure.step
     def test_001(self,case,get_db,env_url):
 
