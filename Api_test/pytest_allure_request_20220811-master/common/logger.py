@@ -9,7 +9,7 @@
 #-------------------------------------------------------------------------------
 import logging,time, os
 from loguru import logger as Logger
-from common.all_path import logPath
+from common.all_path import LogPath
 
 # 日志文件路径
 LOG_PATH = logPath

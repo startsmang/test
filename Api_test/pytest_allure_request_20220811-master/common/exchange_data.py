@@ -88,7 +88,7 @@ class ExchangeData():
         :param return_type: 返回值类型 srt   dict   no 不改变类型
         return content： 替换表达式后的字符串
         """
-        if not isinstance(content, int):#判断传来的值为int,直接跳出，否则报错 return self.pattern.sub(convert, self.template) E TypeError: expected stri
+        if not isinstance(content, int):#判断传来的值为int,直接跳出，否则报错 return self.pattern.sub(convert, self.templates) E TypeError: expected stri
             if content !="" :
                 data=cls.extra_pool
                 content = Template(content).safe_substitute(data)
