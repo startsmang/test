@@ -8,7 +8,7 @@
 import os
 import ast
 import yaml.scanner
-from utils.read_files_tools.regular_control import regular
+from Api_test.auto.utils.read_files_tools.regular_control import regular
 
 
 class GetYamlData:

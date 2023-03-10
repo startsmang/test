@@ -1,15 +1,12 @@
 import pytest
 import requests
-import yaml
-from
-
-
+from utils.read_files_tools.yaml_control import GetYamlData
 @pytest.mark.parametrize('phone',)
 def test_login():
     url ='https://jxh-api.zx1026.com/User/Register/getPublicUserTokenByTel',
 
     data = {
-        'telephone' : ''
+        'telephone' : GetYamlData()
     }
 @pytest.mark.parametrize('phone',)
 def test_revise(self,phone):
