@@ -16,13 +16,9 @@ def get_news():
     "ghello"
     return  "ghello"
 
-@app.route("/register",methods=['GET','POST'])
+@app.route("/register",methods=['GET'])
 def register():
-    if request.methods =="GET":
         return render_template("register.html")
-    else:
-         user = requests.form.get("account")
-         print(user)
 
 #
 # @app.route("/post/reg",methods=["POST"])
@@ -30,11 +26,11 @@ def register():
 #     print(request.form)
 #     return "注册成功"
 
-# @app.route("/do/reg" ,methods=["GET"])
-#
-# def do_register():
-#     # print(request.args)
-#     return "注册成功"
+@app.route("/do/reg" ,methods=["GET"])
+
+def do_register():
+    # print(request.args)
+    return "注册成功"
 
 
 if __name__ == '__main__':
