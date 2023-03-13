@@ -31,6 +31,9 @@ def register():
 def do_register():
     # print(request.args)
     return "注册成功"
+@app.route("/login",methods=['GET'])
+def Login():
+    print("登入成功")
 
 
 if __name__ == '__main__':
