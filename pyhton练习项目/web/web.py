@@ -40,6 +40,10 @@ def do_register():
 def Login():
     print("登入成功")
 
+@app.route("/xiaomi",methods=['GET'])
+def xiaomi():
+    return render_template("xiaomi.html")
+
 
 if __name__ == '__main__':
     app.run()
