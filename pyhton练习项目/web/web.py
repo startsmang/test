@@ -42,7 +42,7 @@ def Login():
 
 @app.route("/xiaomi",methods=['GET'])
 def xiaomi():
-    return render_template("xiaomi.html")\
+    return render_template("xiaomi.html")
 
 @app.route("/xiaom",methods=['GET'])
 def xiaom():
