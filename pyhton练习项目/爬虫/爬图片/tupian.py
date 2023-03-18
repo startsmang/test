@@ -11,7 +11,7 @@ import csv
 driver = webdriver.Chrome()
 wait = WebDriverWait(driver,10)
 # url ='http://www.xiannvku.cc/?ref=www.ooee2022.top' /* 首页*/
-url = 'http://www.xiannvku.cc/pic/show-21201-1.html'
+url = 'https://www.tisun.ltd/2022/03/30/%e5%94%90%e5%ae%89%e7%90%aa%e5%86%99%e7%9c%9f/'
 header={
 "accept-encoding": "gzip, deflate, br",
 "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
@@ -28,19 +28,34 @@ header={
 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
 }
 driver.get(url)  # 对网页发送请求
+driver.maximize_window()
+
+time.sleep(3)
+data_src_url= [ ]
 time.sleep(1)
+data_src=driver.find_element(By.XPATH,"/html/body/main/div/div/article/div[3]/div[1]/figure[1]/figure/img").get_attribute('data-srcset')
+print(data_src)
+img_url = re.findall(r'768w, (.*?) 994',data_src)
+print(img_url)
+data_src_url.append(img_url)
+print(data_src_url)
+
+if __name__ == '__main__':
+    pass
+
+
 # mood = wait.until(EC.presence_of_element_located((By.XPATH,'/html/body/div[3]/center/img[1]'))) # 找到热门表情包点击
 # mood.click()    # 找到热门表情包点击
 # time.sleep(1)
-chains = wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/div[5]/div[1]/div')))  # 移动到页面末尾，加载元素
-ActionChains(driver).move_to_element(chains).perform()  # 开始移动
-time.sleep(3)
-res = requests.request("post",url=url ,headers=header)
-
-title = driver.find_element(By.XPATH, '/html/body/div[3]/center/img').get_attribute('alt')
-if len(title) >= 295:  # 判断 处理因标题过长而保存不了图片
-    title = 'not'
-ditail = driver.find_element(By.XPATH, '//*[@id="pages"]/a[]').get_attribute('href')  # 获取详细页
-images = driver.find_element(By.XPATH, '/html/body/div[3]/center/img').get_attribute('src')  # 获取图片链接
-
-print(title,ditail,images)
+# chains = wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/div[5]/div[1]/div')))  # 移动到页面末尾，加载元素
+# ActionChains(driver).move_to_element(chains).perform()  # 开始移动
+# time.sleep(3)
+# res = requests.request("post",url=url ,headers=header)
+#
+# title = driver.find_element(By.XPATH, '/html/body/div[3]/center/img').get_attribute('alt')
+# if len(title) >= 295:  # 判断 处理因标题过长而保存不了图片
+#     title = 'not'
+# ditail = driver.find_element(By.XPATH, '//*[@id="pages"]/a').get_attribute('href')  # 获取详细页
+# images = driver.find_element(By.XPATH, '/html/body/div[3]/center/img').get_attribute('src')  # 获取图片链接
+#
+# print(title,ditail,images)
