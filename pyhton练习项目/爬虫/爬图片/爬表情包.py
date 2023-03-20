@@ -58,9 +58,6 @@ def get_data():
         page.click()
         n += 1
 print('======================爬取结束==================================')
- # 手机号校验 正则
-
-
 
 
 
@@ -74,7 +71,7 @@ def save_csv(all_data):
 
 
 
-def save_Images(images,title):
+def save_Images(images,title):  #
     if not os.path.exists('./表情包/'):
         os.mkdir('./表情包/')
     image_data = requests.get(url=images).content

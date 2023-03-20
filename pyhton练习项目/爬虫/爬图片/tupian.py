@@ -9,16 +9,14 @@ import requests
 import os.path
 import csv
 driver = webdriver.Chrome()
-wait = WebDriverWait(driver,10)
+# wait = WebDriverWait(driver,10)
 # url ='http://www.xiannvku.cc/?ref=www.ooee2022.top' /* 首页*/
-url = 'https://www.tisun.ltd/2022/03/30/%e5%94%90%e5%ae%89%e7%90%aa%e5%86%99%e7%9c%9f/'
+url = 'https://www.mevtu.com/'
 header={
 "accept-encoding": "gzip, deflate, br",
 "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
 "content-length": "0",
 "content-type": "text/plain",
-"origin": 'http://www.xiannvku.cc',
-"referer": "http://www.xiannvku.cc/",
 "sec-ch-ua": 'Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
 "sec-ch-ua-mobile": "?0",
 "sec-ch-ua-platform": "Windows",
@@ -29,19 +27,31 @@ header={
 }
 driver.get(url)  # 对网页发送请求
 driver.maximize_window()
-
-time.sleep(3)
 data_src_url= [ ]
 time.sleep(1)
-data_src=driver.find_element(By.XPATH,"/html/body/main/div/div/article/div[3]/div[1]/figure[1]/figure/img").get_attribute('data-srcset')
-print(data_src)
-img_url = re.findall(r'768w, (.*?) 994',data_src)
-print(img_url)
-data_src_url.append(img_url)
-print(data_src_url)
+driver.find_element(By.XPATH,'//*[@id="index_ajax_list"]/li[1]/a/img').click()
+time.sleep(1)
+src = driver.find_element(By.XPATH,'//*[@id="image_div"]/p/a/img').get_attribute('src')
+print(src)
 
-if __name__ == '__main__':
-    pass
+# data_src=driver.find_element(By.XPATH,"/html/body/main/div/div/article/div[3]/div[1]/figure[1]/figure/img").get_attribute('data-srcset')
+# print(data_src)
+# img_url = re.findall(r'768w, (.*?) 994',data_src)
+# print(img_url)
+# data_src_url.append(img_url)
+# print(data_src_url)
+# if not os.path.exists('./img/'):
+#     os.mkdir('./img/')
+# title = driver.find_element(By.XPATH, '//*[@id="posts-pay"]/div[1]/div[2]/dt').text
+# print(title)
+# image_data = requests.get(url=data_src_url[0][0]).content
+# with open('./img/' + title, mode='wb') as f:
+#     f.write(image_data)
+#     print('正在保存图片===>:', title)
+#
+#
+
+
 
 
 # mood = wait.until(EC.presence_of_element_located((By.XPATH,'/html/body/div[3]/center/img[1]'))) # 找到热门表情包点击
