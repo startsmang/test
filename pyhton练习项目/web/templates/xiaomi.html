@@ -58,7 +58,23 @@
         color: white;
         margin-top: 1px;
     }
+    .app{
+        position: relative;
 
+    }
+    .app .download{
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        display: none;}
+    .app .download img{
+        height: 70px;
+        width: 70px;
+
+    }
+    .app:hover .download{
+        display: block;
+    }
     .container .logo{
         height: 100px;
         width: 100px;
@@ -135,7 +151,12 @@
        <a href="" >企业团购</a>
        <a href="" >资质证明</a>
        <a href="" >协议规则</a>
-       <a href="" >下载app</a>
+       <a href=""  class="app">下载app
+           <div class="download" >
+                <img  src="../static/download.png" alt="">
+           </div>
+
+       </a>
        <a href="" >Select Location</a>
 
     </div>

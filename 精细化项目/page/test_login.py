@@ -27,6 +27,13 @@ def test_chengGuan():
     text = driver.find_element(By.XPATH,'//*[@id="breadcrumb-container"]/span/span[2]/span[1]/span').text
     assert '问题汇总' in text
 
+def test_delete_workOrder():
+    driver.find_element(By.XPATH,'//*[@id="app"]/div/div[2]/section/div/div/div/div[4]/div/div[5]/div[2]/table/tbody/tr[2]/td[17]/div/div/span[2]').click()
+    sleep(1)
+    driver.find_element(By.XPATH,'/html/body/div[4]/div/div[3]/button[2]/span').click()
+    sleep(1)
+    assert '删除成功' in driver.page_source
+
 # def test_quit():
 #     driver.find_element(By.XPATH,'//*[@id="app"]/div/div[2]/div/div/div[5]/div[3]/div/img').click()
 #     sleep(1)
