@@ -1,0 +1,141 @@
+[ {
+  "uid" : "1359353ab9cb1079",
+  "name" : "test_dept_add[dept1]",
+  "time" : {
+    "start" : 1640180337045,
+    "stop" : 1640180337609,
+    "duration" : 564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b04137bd9061411f",
+  "name" : "test_product_add[product0]",
+  "time" : {
+    "start" : 1640180281765,
+    "stop" : 1640180283375,
+    "duration" : 1610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5ddb80c44bb9ca8",
+  "name" : "test_01_login[admin-1-1]",
+  "time" : {
+    "start" : 1640180255828,
+    "stop" : 1640180256628,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d0dcaa3102b5a0f",
+  "name" : "test_dept_list",
+  "time" : {
+    "start" : 1640180321321,
+    "stop" : 1640180321328,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60aca9363068e9ba",
+  "name" : "test_dept_delete",
+  "time" : {
+    "start" : 1640180314339,
+    "stop" : 1640180314836,
+    "duration" : 497
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "15456e1ca4b14cc6",
+  "name" : "test_product_list",
+  "time" : {
+    "start" : 1640180275432,
+    "stop" : 1640180275437,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4b8bb4396f2f16f",
+  "name" : "test_dept_add[dept0]",
+  "time" : {
+    "start" : 1640180328249,
+    "stop" : 1640180329551,
+    "duration" : 1302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10866d088dea7884",
+  "name" : "test_dept_add[dept2]",
+  "time" : {
+    "start" : 1640180343947,
+    "stop" : 1640180344497,
+    "duration" : 550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5efc16b217cbe6f2",
+  "name" : "test_product_add[product2]",
+  "time" : {
+    "start" : 1640180297553,
+    "stop" : 1640180299117,
+    "duration" : 1564
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eee6028e17235339",
+  "name" : "test_product_delete",
+  "time" : {
+    "start" : 1640180305434,
+    "stop" : 1640180307980,
+    "duration" : 2546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9f2aa3aa3aee525",
+  "name" : "test_01_login[admin-123456-0]",
+  "time" : {
+    "start" : 1640180262060,
+    "stop" : 1640180262880,
+    "duration" : 820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7276e95f683c9ad9",
+  "name" : "test_dept_add[dept3]",
+  "time" : {
+    "start" : 1640180350827,
+    "stop" : 1640180351395,
+    "duration" : 568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "407c32ff1a53a72f",
+  "name" : "test_01_login[hesj-1-0]",
+  "time" : {
+    "start" : 1640180268283,
+    "stop" : 1640180269117,
+    "duration" : 834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9906d2e9a8d612c",
+  "name" : "test_product_add[product1]",
+  "time" : {
+    "start" : 1640180289681,
+    "stop" : 1640180291222,
+    "duration" : 1541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

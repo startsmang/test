@@ -1,0 +1,195 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "用户登录",
+    "children" : [ {
+      "name" : "用户登录1-1",
+      "children" : [ {
+        "name" : "test_01_login[admin-1-1]",
+        "uid" : "561e9c683826e1a0",
+        "parentUid" : "6cf752b7dd1436891419786cfec62f63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639725997073,
+          "stop" : 1639725997893,
+          "duration" : 820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "1", "'admin'" ]
+      }, {
+        "name" : "test_01_login[admin-123456-0]",
+        "uid" : "96eb9d2b82d06fd0",
+        "parentUid" : "6cf752b7dd1436891419786cfec62f63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639726001588,
+          "stop" : 1639726002450,
+          "duration" : 862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "0", "'admin'" ]
+      }, {
+        "name" : "test_01_login[hesj-1-0]",
+        "uid" : "b48ccef4c16a5cc8",
+        "parentUid" : "6cf752b7dd1436891419786cfec62f63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639726006110,
+          "stop" : 1639726007049,
+          "duration" : 939
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'hesj'" ]
+      } ],
+      "uid" : "6cf752b7dd1436891419786cfec62f63"
+    } ],
+    "uid" : "59ef7dd4c662d2470b42be4c1b039f6e"
+  }, {
+    "name" : "test_product_list",
+    "uid" : "e14a8012b902d955",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726012896,
+      "stop" : 1639726012901,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_product_add[product0]",
+    "uid" : "3b5d4457f7692d12",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726017897,
+      "stop" : 1639726019652,
+      "duration" : 1755
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('test_product_001', '测试商品_001', 100, 200, 3, 'D:/test.jpg', '测试商品2')" ]
+  }, {
+    "name" : "test_product_add[product1]",
+    "uid" : "b47dbe9453f65975",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726025537,
+      "stop" : 1639726027111,
+      "duration" : 1574
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('test_product_002', '测试商品_002', 150, 300, 4, 'D:/test.jpg', '测试商品3')" ]
+  }, {
+    "name" : "test_product_add[product2]",
+    "uid" : "bae93927862af701",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726031752,
+      "stop" : 1639726033358,
+      "duration" : 1606
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('test_product_003', '测试商品_003', 200, 400, 5, 'D:/test.jpg', '测试商品4')" ]
+  }, {
+    "name" : "test_product_delete",
+    "uid" : "42fd6bb7594adc43",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726037985,
+      "stop" : 1639726039026,
+      "duration" : 1041
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_product_list",
+    "uid" : "d8b5e6ab817fda30",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726043643,
+      "stop" : 1639726043649,
+      "duration" : 6
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_product_add[dept0]",
+    "uid" : "2375e6e9a97a58fe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726048291,
+      "stop" : 1639726048837,
+      "duration" : 546
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('name_dept_001', 'sn_dept_001')" ]
+  }, {
+    "name" : "test_product_add[dept1]",
+    "uid" : "21f0863c58825643",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726053437,
+      "stop" : 1639726054021,
+      "duration" : 584
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('name_dept_002', 'sn_dept_002')" ]
+  }, {
+    "name" : "test_product_add[dept2]",
+    "uid" : "9fc6d500158d99e0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726058616,
+      "stop" : 1639726059173,
+      "duration" : 557
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('name_dept_003', 'sn_dept_003')" ]
+  }, {
+    "name" : "test_product_add[dept3]",
+    "uid" : "4da9c89fc69e0a54",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639726063784,
+      "stop" : 1639726064360,
+      "duration" : 576
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('name_dept_004', 'sn_dept_004')" ]
+  }, {
+    "name" : "test_product_delete",
+    "uid" : "2ee8b357d178a4c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1639726068955,
+      "stop" : 1639726069260,
+      "duration" : 305
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

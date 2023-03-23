@@ -1,0 +1,9 @@
+2023-03-23 10:17:43.786 | ERROR    | base.base:get_element:58 - 模块:,元素获取失败, 定位类型id,定位表达式:name
+2023-03-23 10:17:44.008 | INFO     | base.base:save_screenshot:40 - 截图成功, 文件路径:png\_230323101743.png
+2023-03-23 10:17:46.424 | INFO     | base.base:quit:355 - 退出浏览器成功
+2023-03-23 10:17:48.055 | ERROR    | base.base:get_element:58 - 模块:,元素获取失败, 定位类型id,定位表达式:name
+2023-03-23 10:17:48.380 | INFO     | base.base:save_screenshot:40 - 截图成功, 文件路径:png\_230323101748.png
+2023-03-23 10:17:50.648 | INFO     | base.base:quit:355 - 退出浏览器成功
+2023-03-23 10:17:51.944 | ERROR    | base.base:get_element:58 - 模块:,元素获取失败, 定位类型id,定位表达式:name
+2023-03-23 10:17:52.217 | INFO     | base.base:save_screenshot:40 - 截图成功, 文件路径:png\_230323101751.png
+2023-03-23 10:17:54.443 | INFO     | base.base:quit:355 - 退出浏览器成功

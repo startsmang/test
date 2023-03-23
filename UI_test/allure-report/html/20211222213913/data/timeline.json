@@ -1,0 +1,195 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-PBBG206",
+    "children" : [ {
+      "name" : "7384-MainThread",
+      "children" : [ {
+        "name" : "test_product_add[product1]",
+        "uid" : "a9906d2e9a8d612c",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180289681,
+          "stop" : 1640180291222,
+          "duration" : 1541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('test_product_002', '测试商品_002', 150, 300, 4, None, '测试商品3')" ]
+      }, {
+        "name" : "test_dept_add[dept3]",
+        "uid" : "7276e95f683c9ad9",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180350827,
+          "stop" : 1640180351395,
+          "duration" : 568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('name_dept_004', 'sn_dept_004')" ]
+      }, {
+        "name" : "test_01_login[hesj-1-0]",
+        "uid" : "407c32ff1a53a72f",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180268283,
+          "stop" : 1640180269117,
+          "duration" : 834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'hesj'" ]
+      }, {
+        "name" : "test_product_add[product2]",
+        "uid" : "5efc16b217cbe6f2",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180297553,
+          "stop" : 1640180299117,
+          "duration" : 1564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('test_product_003', '测试商品_003', 200, 400, 5, None, '测试商品4')" ]
+      }, {
+        "name" : "test_dept_list",
+        "uid" : "2d0dcaa3102b5a0f",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180321321,
+          "stop" : 1640180321328,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dept_add[dept0]",
+        "uid" : "e4b8bb4396f2f16f",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180328249,
+          "stop" : 1640180329551,
+          "duration" : 1302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('name_dept_001', 'sn_dept_001')" ]
+      }, {
+        "name" : "test_dept_add[dept2]",
+        "uid" : "10866d088dea7884",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180343947,
+          "stop" : 1640180344497,
+          "duration" : 550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('name_dept_003', 'sn_dept_003')" ]
+      }, {
+        "name" : "test_dept_add[dept1]",
+        "uid" : "1359353ab9cb1079",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180337045,
+          "stop" : 1640180337609,
+          "duration" : 564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('name_dept_002', 'sn_dept_002')" ]
+      }, {
+        "name" : "test_product_list",
+        "uid" : "15456e1ca4b14cc6",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180275432,
+          "stop" : 1640180275437,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_dept_delete",
+        "uid" : "60aca9363068e9ba",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640180314339,
+          "stop" : 1640180314836,
+          "duration" : 497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_product_add[product0]",
+        "uid" : "b04137bd9061411f",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180281765,
+          "stop" : 1640180283375,
+          "duration" : 1610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('test_product_001', '测试商品_001', 100, 200, 3, None, '测试商品2')" ]
+      }, {
+        "name" : "test_01_login[admin-123456-0]",
+        "uid" : "f9f2aa3aa3aee525",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180262060,
+          "stop" : 1640180262880,
+          "duration" : 820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "0", "'admin'" ]
+      }, {
+        "name" : "test_01_login[admin-1-1]",
+        "uid" : "e5ddb80c44bb9ca8",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180255828,
+          "stop" : 1640180256628,
+          "duration" : 800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "1", "'admin'" ]
+      }, {
+        "name" : "test_product_delete",
+        "uid" : "eee6028e17235339",
+        "parentUid" : "927dc3ef3d593311b3a38826756e6af6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640180305434,
+          "stop" : 1640180307980,
+          "duration" : 2546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "927dc3ef3d593311b3a38826756e6af6"
+    } ],
+    "uid" : "e17afcdef38528a96169b31c1239ed81"
+  } ]
+}

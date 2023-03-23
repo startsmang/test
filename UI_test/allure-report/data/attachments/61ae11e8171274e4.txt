@@ -1,0 +1,16 @@
+2021-12-17 15:14:20.395 | INFO     | base.base:wait_ele_visible:140 - 定位系统模块:元素定位成功,定位方式:('id', 'left_tab2')
+2021-12-17 15:14:20.406 | INFO     | base.base:click:298 - 操作说明点击系统管理模块,点击页面元素<li id="left_tab2" title="系统管理" data-rootmenu="systemManage">
+					<img alt="系统管理" title="系统管理" src="/images/common/2.jpg" width="33" height="31">
+				</li>
+2021-12-17 15:14:20.467 | INFO     | base.base:wait_ele_visible:140 - 定位系统管理模块:元素定位成功,定位方式:('id', 'dleft_tab1_1_switch')
+2021-12-17 15:14:20.478 | INFO     | base.base:click:298 - 操作说明点击系统管理模块,点击页面元素<span id="dleft_tab1_1_switch" title="" class="button level0 switch root_close" treenode_switch=""></span>
+2021-12-17 15:14:21.041 | INFO     | base.base:wait_ele_visible:140 - 定位部门管理:元素定位成功,定位方式:('id', 'dleft_tab1_2_span')
+2021-12-17 15:14:21.049 | INFO     | base.base:click:298 - 操作说明点击部门管理模块,点击页面元素<span id="dleft_tab1_2_span">部门管理</span>
+2021-12-17 15:14:21.130 | INFO     | base.base:switch_iframe:315 - 跳转到主页面操作窗口:切换iframe窗口成功,定位iframe:rightMain
+2021-12-17 15:14:21.153 | INFO     | base.base:wait_ele_visible:140 - 定位页面的总记录数:元素定位成功,定位方式:('xpath', "//div[@class='ui_flt']//span[1]")
+2021-12-17 15:14:21.183 | INFO     | base.base:wait_ele_visible:140 - 定位部门列表尾页按钮:元素定位成功,定位方式:('css selector', "input[value='尾页']")
+2021-12-17 15:14:21.192 | INFO     | base.base:click:298 - 操作说明点击部门尾页按钮跳转到最后一页,点击页面元素<input type="button" value="尾页" class="ui_input_btn01">
+2021-12-17 15:14:21.278 | INFO     | base.base:wait_ele_visible:140 - 定位到部门删除按钮:元素定位成功,定位方式:('xpath', "//table[@class='table']/tbody/tr[last()]//a[text()='删除']")
+2021-12-17 15:14:21.287 | INFO     | base.base:click:298 - 操作说明部门删除操作,点击页面元素<a href="/department/delete.do?id=44">删除</a>
+2021-12-17 15:14:21.410 | INFO     | base.base:wait_ele_visible:140 - 定位页面的总记录数:元素定位成功,定位方式:('xpath', "//div[@class='ui_flt']//span[1]")
+2021-12-17 15:14:23.625 | INFO     | base.base:quit:355 - 退出浏览器成功

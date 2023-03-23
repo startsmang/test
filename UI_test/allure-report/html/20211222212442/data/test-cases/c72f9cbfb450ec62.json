@@ -1,0 +1,62 @@
+{
+  "uid" : "c72f9cbfb450ec62",
+  "name" : "test_dept_add",
+  "fullName" : "case.test_03_dept.TestDept#test_dept_add",
+  "historyId" : "f5732f68cfc223c8f51f1bded7282e6c",
+  "time" : {
+    "start" : 1640179472975,
+    "stop" : 1640179472975,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: TestDept.test_dept_add() missing 1 required positional argument: 'dept'",
+  "statusTrace" : "self = <case.test_03_dept.TestDept object at 0x00000241A1182410>, args = ()\nkwargs = {}\n\n    def inner(self, *args, **kwargs):\n        try:\n>           fun(self, *args, **kwargs)\nE           TypeError: TestDept.test_dept_add() missing 1 required positional argument: 'dept'\n\ncase\\test_03_dept.py:17: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_dept"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDept"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PBBG206"
+  }, {
+    "name" : "thread",
+    "value" : "3452-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_03_dept"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c72f9cbfb450ec62.json",
+  "parameterValues" : [ ]
+}

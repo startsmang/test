@@ -1,0 +1,21 @@
+2023-03-23 11:00:33.979 | ERROR    | UI_test.base.base:get_element:58 - 模块:,元素获取失败, 定位类型id,定位表达式:name
+2023-03-23 11:00:34.214 | INFO     | UI_test.base.base:save_screenshot:40 - 截图成功, 文件路径:png\_230323110033.png
+2023-03-23 11:00:36.734 | INFO     | UI_test.base.base:quit:355 - 退出浏览器成功
+2023-03-23 11:00:38.023 | ERROR    | UI_test.base.base:get_element:58 - 模块:,元素获取失败, 定位类型id,定位表达式:name
+2023-03-23 11:00:38.266 | INFO     | UI_test.base.base:save_screenshot:40 - 截图成功, 文件路径:png\_230323110038.png
+2023-03-23 11:00:40.469 | INFO     | UI_test.base.base:quit:355 - 退出浏览器成功
+2023-03-23 11:00:41.764 | ERROR    | UI_test.base.base:get_element:58 - 模块:,元素获取失败, 定位类型id,定位表达式:name
+2023-03-23 11:00:42.064 | INFO     | UI_test.base.base:save_screenshot:40 - 截图成功, 文件路径:png\_230323110041.png
+2023-03-23 11:00:44.251 | INFO     | UI_test.base.base:quit:355 - 退出浏览器成功
+2023-03-23 11:00:55.981 | INFO     | UI_test.base.base:save_screenshot:40 - 截图成功, 文件路径:png\定位系统模块_230323110055.png
+2023-03-23 11:00:55.981 | ERROR    | UI_test.base.base:wait_ele_visible:144 - 定位系统模块-元素不存在:('id', 'left_tab2')
+2023-03-23 11:01:07.553 | INFO     | UI_test.base.base:save_screenshot:40 - 截图成功, 文件路径:png\定位系统模块_230323110107.png
+2023-03-23 11:01:07.553 | ERROR    | UI_test.base.base:wait_ele_visible:144 - 定位系统模块-元素不存在:('id', 'left_tab2')
+2023-03-23 11:01:19.420 | INFO     | UI_test.base.base:save_screenshot:40 - 截图成功, 文件路径:png\定位系统模块_230323110119.png
+2023-03-23 11:01:19.420 | ERROR    | UI_test.base.base:wait_ele_visible:144 - 定位系统模块-元素不存在:('id', 'left_tab2')
+2023-03-23 11:01:31.166 | INFO     | UI_test.base.base:save_screenshot:40 - 截图成功, 文件路径:png\定位系统模块_230323110131.png
+2023-03-23 11:01:31.166 | ERROR    | UI_test.base.base:wait_ele_visible:144 - 定位系统模块-元素不存在:('id', 'left_tab2')
+2023-03-23 11:01:42.953 | INFO     | UI_test.base.base:save_screenshot:40 - 截图成功, 文件路径:png\定位系统模块_230323110142.png
+2023-03-23 11:01:42.953 | ERROR    | UI_test.base.base:wait_ele_visible:144 - 定位系统模块-元素不存在:('id', 'left_tab2')
+2023-03-23 11:01:54.997 | INFO     | UI_test.base.base:save_screenshot:40 - 截图成功, 文件路径:png\定位系统模块_230323110154.png
+2023-03-23 11:01:54.997 | ERROR    | UI_test.base.base:wait_ele_visible:144 - 定位系统模块-元素不存在:('id', 'left_tab2')

@@ -1,0 +1,3 @@
+2023-03-23 10:17:43.786 | ERROR    | base.base:get_element:58 - 模块:,元素获取失败, 定位类型id,定位表达式:name
+2023-03-23 10:17:48.055 | ERROR    | base.base:get_element:58 - 模块:,元素获取失败, 定位类型id,定位表达式:name
+2023-03-23 10:17:51.944 | ERROR    | base.base:get_element:58 - 模块:,元素获取失败, 定位类型id,定位表达式:name

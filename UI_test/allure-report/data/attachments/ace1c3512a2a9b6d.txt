@@ -1,0 +1,50 @@
+2021-12-17 15:13:36.234 | INFO     | base.base:wait_ele_visible:140 - 定位业务处理模块:元素定位成功,定位方式:('id', 'dleft_tab1_1_switch')
+2021-12-17 15:13:36.251 | INFO     | base.base:click:298 - 操作说明点击业务处理模块,点击页面元素<span id="dleft_tab1_1_switch" title="" class="button level0 switch root_close" treenode_switch=""></span>
+2021-12-17 15:13:36.826 | INFO     | base.base:wait_ele_visible:140 - 定位商品管理菜单:元素定位成功,定位方式:('xpath', "//span[text()='商品管理']")
+2021-12-17 15:13:36.838 | INFO     | base.base:click:298 - 操作说明点击商品管理菜单,点击页面元素<span id="dleft_tab1_4_span">商品管理</span>
+2021-12-17 15:13:36.935 | INFO     | base.base:switch_iframe:315 - 跳转到主页面操作窗口:切换iframe窗口成功,定位iframe:rightMain
+2021-12-17 15:13:36.958 | INFO     | base.base:wait_ele_visible:140 - 定位商品新增按钮:元素定位成功,定位方式:('xpath', "//div[@id='box_bottom']/input[@value='新增']")
+2021-12-17 15:13:36.968 | INFO     | base.base:click:298 - 操作说明点击商品新增按钮,点击页面元素<input type="button" value="新增" class="ui_input_btn01 btn_input" data-url="/product/input.do">
+2021-12-17 15:13:37.108 | INFO     | base.base:wait_ele_visible:140 - 定位编号输入:元素定位成功,定位方式:('css selector', "input[name='sn']")
+2021-12-17 15:13:37.202 | INFO     | base.base:input_text:201 - 功能模块:输入商品编号, 输入文本内容test_product_002, 定位的元素<input name="sn" class="ui_input_txt02" value="">
+2021-12-17 15:13:37.222 | INFO     | base.base:wait_ele_visible:140 - 定位商品名称:元素定位成功,定位方式:('css selector', "input[name='name']")
+2021-12-17 15:13:37.301 | INFO     | base.base:input_text:201 - 功能模块:输入商品名称, 输入文本内容测试商品_002, 定位的元素<input name="name" class="ui_input_txt02" value="">
+2021-12-17 15:13:37.321 | INFO     | base.base:wait_ele_visible:140 - 定位商品成本价格:元素定位成功,定位方式:('css selector', "input[name='costPrice']")
+2021-12-17 15:13:37.378 | INFO     | base.base:input_text:201 - 功能模块:输入商品成本价格, 输入文本内容150, 定位的元素<input name="costPrice" class="ui_input_txt02" value="">
+2021-12-17 15:13:37.397 | INFO     | base.base:wait_ele_visible:140 - 定位商品销售价格:元素定位成功,定位方式:('css selector', "input[name='salePrice']")
+2021-12-17 15:13:37.457 | INFO     | base.base:input_text:201 - 功能模块:输入商品销售价格, 输入文本内容300, 定位的元素<input name="salePrice" class="ui_input_txt02" value="">
+2021-12-17 15:13:37.475 | INFO     | base.base:wait_ele_visible:140 - 定位商品品牌:元素定位成功,定位方式:('css selector', "select[name='brandId']")
+2021-12-17 15:13:37.571 | INFO     | base.base:select_by_value:267 - 选择商品品牌:<select name="brandId" class="ui_select03">
+                            
+                                <option value="1">苹果</option>
+                            
+                                <option value="2">华为</option>
+                            
+                                <option value="3">小米</option>
+                            
+                                <option value="4">锤子</option>
+                            
+                                <option value="5">360</option>
+                            
+                                <option value="6">菲尔可</option>
+                            
+                                <option value="7">西部数据</option>
+                            
+                                <option value="8">闪迪</option>
+                            
+                                <option value="9">斯伯丁</option>
+                            
+                                <option value="10">44</option>
+                            
+                        </select>选择对应的索引值4
+2021-12-17 15:13:37.589 | INFO     | base.base:wait_ele_visible:140 - 定位商品图片:元素定位成功,定位方式:('css selector', "input[name='pic']")
+2021-12-17 15:13:37.621 | INFO     | base.base:input_text:201 - 功能模块:选择商品图片, 输入文本内容D:/test.jpg, 定位的元素<input type="file" class="ui_file" name="pic">
+2021-12-17 15:13:37.640 | INFO     | base.base:wait_ele_visible:140 - 定位商品描述:元素定位成功,定位方式:('css selector', "textarea[name='intro']")
+2021-12-17 15:13:37.707 | INFO     | base.base:input_text:201 - 功能模块:输入商品描述, 输入文本内容测试商品3, 定位的元素<textarea name="intro" class="ui_area01" value=""></textarea>
+2021-12-17 15:13:37.726 | INFO     | base.base:wait_ele_visible:140 - 定位商品保存按钮:元素定位成功,定位方式:('css selector', "input[value='确定保存']")
+2021-12-17 15:13:37.734 | INFO     | base.base:click:298 - 操作说明点击商品保存按钮,点击页面元素<input type="submit" value="确定保存" class="ui_input_btn01">
+2021-12-17 15:13:38.328 | INFO     | base.base:wait_ele_visible:140 - 定位商品保存提示按钮:元素定位成功,定位方式:('css selector', "button[class='aui_state_highlight']")
+2021-12-17 15:13:38.336 | INFO     | base.base:click:298 - 操作说明,点击页面元素<button class="aui_state_highlight" type="button">确定</button>
+2021-12-17 15:13:38.439 | INFO     | base.base:wait_ele_visible:140 - 定位商品列表尾页按钮:元素定位成功,定位方式:('css selector', "input[value='尾页']")
+2021-12-17 15:13:38.449 | INFO     | base.base:click:298 - 操作说明点击尾页按钮跳转到最后一页,点击页面元素<input type="button" value="尾页" class="ui_input_btn01 btn_page" data-page="10">
+2021-12-17 15:13:40.656 | INFO     | base.base:quit:355 - 退出浏览器成功

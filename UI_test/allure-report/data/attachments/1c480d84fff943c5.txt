@@ -1,0 +1,10 @@
+2021-12-17 15:13:54.792 | INFO     | base.base:wait_ele_visible:140 - 定位系统模块:元素定位成功,定位方式:('id', 'left_tab2')
+2021-12-17 15:13:54.807 | INFO     | base.base:click:298 - 操作说明点击系统管理模块,点击页面元素<li id="left_tab2" title="系统管理" data-rootmenu="systemManage">
+					<img alt="系统管理" title="系统管理" src="/images/common/2.jpg" width="33" height="31">
+				</li>
+2021-12-17 15:13:54.860 | INFO     | base.base:wait_ele_visible:140 - 定位系统管理模块:元素定位成功,定位方式:('id', 'dleft_tab1_1_switch')
+2021-12-17 15:13:54.873 | INFO     | base.base:click:298 - 操作说明点击系统管理模块,点击页面元素<span id="dleft_tab1_1_switch" title="" class="button level0 switch root_close" treenode_switch=""></span>
+2021-12-17 15:13:55.441 | INFO     | base.base:wait_ele_visible:140 - 定位部门管理:元素定位成功,定位方式:('id', 'dleft_tab1_2_span')
+2021-12-17 15:13:55.449 | INFO     | base.base:click:298 - 操作说明点击部门管理模块,点击页面元素<span id="dleft_tab1_2_span">部门管理</span>
+2021-12-17 15:13:55.529 | INFO     | base.base:switch_iframe:315 - 跳转到主页面操作窗口:切换iframe窗口成功,定位iframe:rightMain
+2021-12-17 15:13:57.621 | INFO     | base.base:quit:355 - 退出浏览器成功

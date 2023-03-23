@@ -1,0 +1,10 @@
+2021-12-17 15:13:15.864 | INFO     | base.base:get_element:55 - 模块:,获取元素成功, 定位类型id,定位表达式:name
+2021-12-17 15:13:15.905 | INFO     | base.base:clear:161 - 模块:,清楚元素内容成功, 清除方式1,操作元素<input type="text" name="username" class="username" id="name" value="admin">
+2021-12-17 15:13:15.950 | INFO     | base.base:input_text:201 - 功能模块:, 输入文本内容admin, 定位的元素<input type="text" name="username" class="username" id="name" value="admin">
+2021-12-17 15:13:15.959 | INFO     | base.base:get_element:55 - 模块:,获取元素成功, 定位类型id,定位表达式:pwd
+2021-12-17 15:13:15.996 | INFO     | base.base:clear:161 - 模块:,清楚元素内容成功, 清除方式1,操作元素<input type="password" name="password" class="pwd" id="pwd" value="1">
+2021-12-17 15:13:16.112 | INFO     | base.base:input_text:201 - 功能模块:, 输入文本内容123456, 定位的元素<input type="password" name="password" class="pwd" id="pwd" value="1">
+2021-12-17 15:13:16.126 | INFO     | base.base:get_element:55 - 模块:,获取元素成功, 定位类型id,定位表达式:login_sub
+2021-12-17 15:13:16.134 | INFO     | base.base:click:298 - 操作说明,点击页面元素<input type="button" class="login_btn" id="login_sub" value="登  录">
+2021-12-17 15:13:16.711 | INFO     | base.base:wait_ele_all_presence:106 - 用户登录错误验证等待元素成功,定位方式('xpath', "//span[text()='用户名或者密码错误']")
+2021-12-17 15:13:18.803 | INFO     | base.base:quit:355 - 退出浏览器成功

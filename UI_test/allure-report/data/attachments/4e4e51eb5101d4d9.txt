@@ -1,0 +1,10 @@
+2021-12-17 15:13:11.166 | INFO     | base.base:get_element:55 - 模块:,获取元素成功, 定位类型id,定位表达式:name
+2021-12-17 15:13:11.219 | INFO     | base.base:clear:161 - 模块:,清楚元素内容成功, 清除方式1,操作元素<input type="text" name="username" class="username" id="name" value="admin">
+2021-12-17 15:13:11.264 | INFO     | base.base:input_text:201 - 功能模块:, 输入文本内容admin, 定位的元素<input type="text" name="username" class="username" id="name" value="admin">
+2021-12-17 15:13:11.273 | INFO     | base.base:get_element:55 - 模块:,获取元素成功, 定位类型id,定位表达式:pwd
+2021-12-17 15:13:11.312 | INFO     | base.base:clear:161 - 模块:,清楚元素内容成功, 清除方式1,操作元素<input type="password" name="password" class="pwd" id="pwd" value="1">
+2021-12-17 15:13:11.358 | INFO     | base.base:input_text:201 - 功能模块:, 输入文本内容1, 定位的元素<input type="password" name="password" class="pwd" id="pwd" value="1">
+2021-12-17 15:13:11.368 | INFO     | base.base:get_element:55 - 模块:,获取元素成功, 定位类型id,定位表达式:login_sub
+2021-12-17 15:13:11.376 | INFO     | base.base:click:298 - 操作说明,点击页面元素<input type="button" class="login_btn" id="login_sub" value="登  录">
+2021-12-17 15:13:11.931 | INFO     | base.base:url_matches:123 - url路径匹配:页面路径:http://localhost:8080/main.do, 匹配路径:main
+2021-12-17 15:13:14.031 | INFO     | base.base:quit:355 - 退出浏览器成功

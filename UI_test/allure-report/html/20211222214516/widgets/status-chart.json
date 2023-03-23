@@ -1,0 +1,141 @@
+[ {
+  "uid" : "717c7e946ffb8027",
+  "name" : "test_dept_add[dept1]",
+  "time" : {
+    "start" : 1640180800976,
+    "stop" : 1640180801531,
+    "duration" : 555
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffc1d5fb0718ed02",
+  "name" : "test_dept_add[dept2]",
+  "time" : {
+    "start" : 1640180807847,
+    "stop" : 1640180808420,
+    "duration" : 573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca29cc755f5b6172",
+  "name" : "test_01_login[admin-123456-0]",
+  "time" : {
+    "start" : 1640180726604,
+    "stop" : 1640180727395,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ea790e1fdf2cf85",
+  "name" : "test_product_add[product2]",
+  "time" : {
+    "start" : 1640180761760,
+    "stop" : 1640180763194,
+    "duration" : 1434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44476c7ddeb0bc0e",
+  "name" : "test_dept_add[dept3]",
+  "time" : {
+    "start" : 1640180814819,
+    "stop" : 1640180815370,
+    "duration" : 551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8d87cc034e2bd6",
+  "name" : "test_product_add[product1]",
+  "time" : {
+    "start" : 1640180753938,
+    "stop" : 1640180755498,
+    "duration" : 1560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1056cb474bf6bdfc",
+  "name" : "test_dept_add[dept0]",
+  "time" : {
+    "start" : 1640180793407,
+    "stop" : 1640180794110,
+    "duration" : 703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cebf3c2466871b26",
+  "name" : "test_01_login[hesj-1-0]",
+  "time" : {
+    "start" : 1640180732806,
+    "stop" : 1640180733591,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5b6451006bd9dee",
+  "name" : "test_product_add[product0]",
+  "time" : {
+    "start" : 1640180746126,
+    "stop" : 1640180747648,
+    "duration" : 1522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c53a1e3ac3d9409",
+  "name" : "test_dept_list",
+  "time" : {
+    "start" : 1640180786698,
+    "stop" : 1640180786704,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9081547a40de6e07",
+  "name" : "test_product_delete",
+  "time" : {
+    "start" : 1640180769465,
+    "stop" : 1640180772484,
+    "duration" : 3019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b2d77786fa84d4d",
+  "name" : "test_dept_delete",
+  "time" : {
+    "start" : 1640180779438,
+    "stop" : 1640180779889,
+    "duration" : 451
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6740b8932851fe55",
+  "name" : "test_product_list",
+  "time" : {
+    "start" : 1640180739864,
+    "stop" : 1640180739870,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9897dccb3303c44",
+  "name" : "test_01_login[admin-1-1]",
+  "time" : {
+    "start" : 1640180720412,
+    "stop" : 1640180721198,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

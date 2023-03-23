@@ -1,0 +1,6 @@
+2021-12-17 15:13:25.305 | INFO     | base.base:wait_ele_visible:140 - 定位业务处理模块:元素定位成功,定位方式:('id', 'dleft_tab1_1_switch')
+2021-12-17 15:13:25.320 | INFO     | base.base:click:298 - 操作说明点击业务处理模块,点击页面元素<span id="dleft_tab1_1_switch" title="" class="button level0 switch root_close" treenode_switch=""></span>
+2021-12-17 15:13:25.903 | INFO     | base.base:wait_ele_visible:140 - 定位商品管理菜单:元素定位成功,定位方式:('xpath', "//span[text()='商品管理']")
+2021-12-17 15:13:25.914 | INFO     | base.base:click:298 - 操作说明点击商品管理菜单,点击页面元素<span id="dleft_tab1_4_span">商品管理</span>
+2021-12-17 15:13:26.076 | INFO     | base.base:switch_iframe:315 - 跳转到主页面操作窗口:切换iframe窗口成功,定位iframe:rightMain
+2021-12-17 15:13:28.160 | INFO     | base.base:quit:355 - 退出浏览器成功

@@ -1,0 +1,3 @@
+2021-12-22 21:35:43.365 | ERROR    | base.base:input_text:203 - 选择商品图片-设置内容失败,  输入文本内容None, 定位的元素<input type="file" class="ui_file" name="pic">
+2021-12-22 21:35:50.896 | ERROR    | base.base:input_text:203 - 选择商品图片-设置内容失败,  输入文本内容None, 定位的元素<input type="file" class="ui_file" name="pic">
+2021-12-22 21:35:58.039 | ERROR    | base.base:input_text:203 - 选择商品图片-设置内容失败,  输入文本内容None, 定位的元素<input type="file" class="ui_file" name="pic">

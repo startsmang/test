@@ -1,0 +1,1 @@
+2021-12-22 21:23:14.847 | ERROR    | case.test_02_product:<module>:22 - [('test_product_001', '测试商品_001', 100, 200, 3, 'D:/test.jpg', '测试商品2'), ('test_product_002', '测试商品_002', 150, 300, 4, 'D:/test.jpg', '测试商品3'), ('test_product_003', '测试商品_003', 200, 400, 5, 'D:/test.jpg', '测试商品4')]

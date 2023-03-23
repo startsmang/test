@@ -1,0 +1,20 @@
+2021-12-17 15:13:59.695 | INFO     | base.base:wait_ele_visible:140 - 定位系统模块:元素定位成功,定位方式:('id', 'left_tab2')
+2021-12-17 15:13:59.712 | INFO     | base.base:click:298 - 操作说明点击系统管理模块,点击页面元素<li id="left_tab2" title="系统管理" data-rootmenu="systemManage">
+					<img alt="系统管理" title="系统管理" src="/images/common/2.jpg" width="33" height="31">
+				</li>
+2021-12-17 15:13:59.774 | INFO     | base.base:wait_ele_visible:140 - 定位系统管理模块:元素定位成功,定位方式:('id', 'dleft_tab1_1_switch')
+2021-12-17 15:13:59.790 | INFO     | base.base:click:298 - 操作说明点击系统管理模块,点击页面元素<span id="dleft_tab1_1_switch" title="" class="button level0 switch root_close" treenode_switch=""></span>
+2021-12-17 15:14:00.353 | INFO     | base.base:wait_ele_visible:140 - 定位部门管理:元素定位成功,定位方式:('id', 'dleft_tab1_2_span')
+2021-12-17 15:14:00.360 | INFO     | base.base:click:298 - 操作说明点击部门管理模块,点击页面元素<span id="dleft_tab1_2_span">部门管理</span>
+2021-12-17 15:14:00.442 | INFO     | base.base:switch_iframe:315 - 跳转到主页面操作窗口:切换iframe窗口成功,定位iframe:rightMain
+2021-12-17 15:14:00.464 | INFO     | base.base:wait_ele_visible:140 - 定位商品新增按钮:元素定位成功,定位方式:('xpath', "//div[@id='box_bottom']/input[@value='新增']")
+2021-12-17 15:14:00.472 | INFO     | base.base:click:298 - 操作说明点击部门新增按钮,点击页面元素<input type="button" value="新增" class="ui_input_btn01 btn_input" data-url="/department/input.do">
+2021-12-17 15:14:00.613 | INFO     | base.base:wait_ele_visible:140 - 定位部门名称:元素定位成功,定位方式:('css selector', "input[name='name']")
+2021-12-17 15:14:00.698 | INFO     | base.base:input_text:201 - 功能模块:输入部门名称, 输入文本内容name_dept_001, 定位的元素<input name="name" class="ui_input_txt02" value="">
+2021-12-17 15:14:00.717 | INFO     | base.base:wait_ele_visible:140 - 定位部门编码:元素定位成功,定位方式:('css selector', "input[name='sn']")
+2021-12-17 15:14:00.794 | INFO     | base.base:input_text:201 - 功能模块:输入部门编码, 输入文本内容sn_dept_001, 定位的元素<input name="sn" class="ui_input_txt02" value="">
+2021-12-17 15:14:00.814 | INFO     | base.base:wait_ele_visible:140 - 定位部门保存按钮:元素定位成功,定位方式:('css selector', "input[value='确定保存']")
+2021-12-17 15:14:00.822 | INFO     | base.base:click:298 - 操作说明点击部门确定保存,点击页面元素<input type="submit" value="确定保存" class="ui_input_btn01">
+2021-12-17 15:14:00.947 | INFO     | base.base:wait_ele_visible:140 - 定位部门列表尾页按钮:元素定位成功,定位方式:('css selector', "input[value='尾页']")
+2021-12-17 15:14:00.955 | INFO     | base.base:click:298 - 操作说明点击部门尾页按钮跳转到最后一页,点击页面元素<input type="button" value="尾页" class="ui_input_btn01">
+2021-12-17 15:14:03.114 | INFO     | base.base:quit:355 - 退出浏览器成功

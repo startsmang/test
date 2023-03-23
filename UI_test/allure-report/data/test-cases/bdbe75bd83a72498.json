@@ -1,0 +1,72 @@
+{
+  "uid" : "bdbe75bd83a72498",
+  "name" : "test_product_list",
+  "fullName" : "case.test_03_dept.TestDept#test_product_list",
+  "historyId" : "38c585276f7aabbfdfcc0d700acddc70",
+  "time" : {
+    "start" : 1639725235530,
+    "stop" : 1639725235536,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1c480d84fff943c5",
+      "name" : "stderr",
+      "source" : "1c480d84fff943c5.txt",
+      "type" : "text/plain",
+      "size" : 1352
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_dept"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDept"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PBBG206"
+  }, {
+    "name" : "thread",
+    "value" : "23928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_03_dept"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdbe75bd83a72498.json",
+  "parameterValues" : [ ]
+}

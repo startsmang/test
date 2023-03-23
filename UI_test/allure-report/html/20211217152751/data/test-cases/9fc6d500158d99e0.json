@@ -1,0 +1,59 @@
+{
+  "uid" : "9fc6d500158d99e0",
+  "name" : "test_product_add[dept2]",
+  "fullName" : "case.test_03_dept.TestDept#test_product_add",
+  "historyId" : "d014702d79e47d08808ffe466372cec3",
+  "time" : {
+    "start" : 1639726058616,
+    "stop" : 1639726059173,
+    "duration" : 557
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_dept"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDept"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-PBBG206"
+  }, {
+    "name" : "thread",
+    "value" : "18152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_03_dept"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dept",
+    "value" : "('name_dept_003', 'sn_dept_003')"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fc6d500158d99e0.json",
+  "parameterValues" : [ "('name_dept_003', 'sn_dept_003')" ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: TestDept.test_dept_add() missing 1 required positional argument: 'dept'",
+      "children" : [ {
+        "name" : "test_dept_add",
+        "uid" : "c72f9cbfb450ec62",
+        "parentUid" : "b5770c5afeab01f5241682599dea4204",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640179472975,
+          "stop" : 1640179472975,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5770c5afeab01f5241682599dea4204"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 100 == 101\n  +100\n  -101",
+      "children" : [ {
+        "name" : "test_dept_delete",
+        "uid" : "e29f2b6e1b109bef",
+        "parentUid" : "0c907cd98ab85d6ed962dc424d0d07cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640179479957,
+          "stop" : 1640179480617,
+          "duration" : 660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c907cd98ab85d6ed962dc424d0d07cf"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
