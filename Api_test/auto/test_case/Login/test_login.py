@@ -35,4 +35,4 @@ class TestLogin:
 
 
 if __name__ == '__main__':
-    pytest.main(['test_login.py', '-s', '-W', 'ignore:Module already imported:pytest.PytestWarning'])
+    pytest.main(['test_add_SanitationPersonnel.py', '-s', '-W', 'ignore:Module already imported:pytest.PytestWarning'])
