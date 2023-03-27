@@ -1,0 +1,52 @@
+INFO     log:conftest.py:58 驱动地址：C:\Users\huangpeng\.wdm\drivers\chromedriver\win32\108.0.5359\chromedriver.exe
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\打开urlhttpswwwbaiducom截图_221228-103653.png
+INFO     log:base.py:71 -元素('xpath', "//*[@class='mnav c-font-normal c-color-t']")已存在，等待0秒
+INFO     log:base.py:95 -元素('xpath', "//*[@class='mnav c-font-normal c-color-t']")已可见，等待0秒
+INFO     log:base.py:234 -查找所有匹配的元素：('xpath', "//*[@class='mnav c-font-normal c-color-t']")
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\查找所有匹配的元素：[@classmnavcfontnormalccolort]截图_221228-103653.png
+INFO     log:func_all_bs.py:23 {'elements': [<selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="4a90e241-8639-4a95-a82a-1b7b77191147")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="eebc2f78-a227-4866-bec9-c82631660b7c")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="9d24cc99-c0ba-4ef2-be8b-cd6f9f603843")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="50567e10-5f8f-410b-862b-3f36a9868d40")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="624d8c16-34c4-4f73-a051-e07dd317620a")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="90015f75-b76c-4081-8cf1-e036621564d4")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="53947422-9aff-44c3-bcfa-eb4fc4b763eb")>], 'total': 7}
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\获取窗口句柄截图_221228-103701.png
+INFO     log:base.py:391 切换句柄-切换到百度搜索界面
+INFO     log:base.py:414 切换【百度一下，你就知道】页面成功!-CDwindow-8CF3E4B030750866E85F8F1E9D55E526-CDwindow-8CF3E4B030750866E85F8F1E9D55E526
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换句柄切换到百度搜索界面截图_221228-103702.png
+INFO     log:base.py:71 百度搜索框输入“mojin”-元素('id', 'kw')已存在，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\百度搜索框输入mojin”截图_221228-103703.png
+INFO     log:base.py:156 百度搜索框输入“mojin”-元素('id', 'kw')输入：mojin
+INFO     log:base.py:71 点击搜索-元素('id', 'su')已存在，等待0秒
+INFO     log:base.py:95 点击搜索-元素('id', 'su')已可见，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击搜索截图_221228-103704.png
+INFO     log:base.py:128 点击搜索-元素('id', 'su')点击成功
+INFO     log:base.py:391 切换句柄-切换到百度新闻界面
+INFO     log:base.py:414 切换【百度新闻——海量中文资讯平台】页面成功!-CDwindow-5D55053712F8C8A225ED02B76EE50E80-CDwindow-5D55053712F8C8A225ED02B76EE50E80
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换句柄切换到百度新闻界面截图_221228-103704.png
+INFO     log:base.py:71 百度新闻搜索框输入“mojin”-元素('id', 'ww')已存在，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\百度新闻搜索框输入mojin”截图_221228-103706.png
+INFO     log:base.py:156 百度新闻搜索框输入“mojin”-元素('id', 'ww')输入：mojin
+INFO     log:base.py:71 点击搜索-元素('id', 's_btn_wr')已存在，等待0秒
+INFO     log:base.py:95 点击搜索-元素('id', 's_btn_wr')已可见，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击搜索截图_221228-103707.png
+INFO     log:base.py:128 点击搜索-元素('id', 's_btn_wr')点击成功
+INFO     log:base.py:391 切换句柄-切换到百度贴吧界面
+INFO     log:base.py:414 切换【百度贴吧——全球领先的中文社区】页面成功!-CDwindow-C8E669CB8FA820172937B27B0D6CDA2B-CDwindow-C8E669CB8FA820172937B27B0D6CDA2B
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换句柄切换到百度贴吧界面截图_221228-103708.png
+INFO     log:base.py:71 百度贴吧搜索框输入“mojin”-元素('id', 'wd1')已存在，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\百度贴吧搜索框输入mojin”截图_221228-103709.png
+INFO     log:base.py:156 百度贴吧搜索框输入“mojin”-元素('id', 'wd1')输入：mojin
+INFO     log:base.py:71 点击搜索-元素('xpath', '//*[@class="search_btn_wrap search_btn_enter_ba_wrap"]')已存在，等待0秒
+INFO     log:base.py:95 点击搜索-元素('xpath', '//*[@class="search_btn_wrap search_btn_enter_ba_wrap"]')已可见，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击搜索截图_221228-103732.png
+INFO     log:base.py:128 点击搜索-元素('xpath', '//*[@class="search_btn_wrap search_btn_enter_ba_wrap"]')点击成功
+INFO     log:base.py:391 切换句柄-切换到百度搜索界面
+INFO     log:base.py:414 切换【mojin_百度搜索】页面成功!-CDwindow-8CF3E4B030750866E85F8F1E9D55E526-CDwindow-8CF3E4B030750866E85F8F1E9D55E526
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换句柄切换到百度搜索界面截图_221228-103733.png
+INFO     log:base.py:71 百度搜索框输入“哈哈”-元素('id', 'kw')已存在，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\百度搜索框输入哈哈”截图_221228-103734.png
+INFO     log:base.py:156 百度搜索框输入“哈哈”-元素('id', 'kw')输入：哈哈
+INFO     log:base.py:71 点击搜索-元素('id', 'su')已存在，等待0秒
+INFO     log:base.py:95 点击搜索-元素('id', 'su')已可见，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击搜索截图_221228-103735.png
+INFO     log:base.py:128 点击搜索-元素('id', 'su')点击成功
+INFO     log:base.py:367 获取窗口句柄title：“mojin_百度搜索”
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\获取窗口句柄title截图_221228-103735.png
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\断言True截图_221228-103735.png
+INFO     log:conftest.py:127 ['CDwindow-8CF3E4B030750866E85F8F1E9D55E526', 'CDwindow-C8E669CB8FA820172937B27B0D6CDA2B', 'CDwindow-5D55053712F8C8A225ED02B76EE50E80']

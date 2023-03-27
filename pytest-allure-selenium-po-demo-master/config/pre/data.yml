@@ -1,0 +1,11 @@
+
+#预发布环境
+#前台URL
+URL:
+#老后台URL
+admin_URL:
+
+#持票用户
+login1:
+  user_name: 435345345
+  password: 345345345322

@@ -1,0 +1,87 @@
+project_name: XX商城
+
+server:
+  # 本地服务
+  dev: https://xxxxxxxx:xxxx/
+  test: https://xxxxxxxx:xxxx/
+  prod: https://xxxxxxxx:xxxx/
+
+
+
+Operations_db: # 操作数据库
+  assert_db: True  #  True  启用数据库查询断言   False  不启用
+  backup: False   #启动测试前启动备份数据库  数据库服务器 linux适用，windows不适用
+  recovery: False  #测试完成后恢复备份数据库  数据库服务器 linux适用，windows不适用
+
+
+severity:
+  case_severity: ["P1","P2","P3","P4"]#用例等级 "["P1","P2","P3","P4","P5"]"  设置需要测试用例等级
+  cor_rel_case_severity: #用例等级和allure报告优先级的对应关系
+    P1: blocker
+    P2: critical
+    P3: normal
+    P4: minor
+    P5: trivial
+
+# 基准的请求头信息
+request_headers: {'Authorization': ''}
+
+# 基准存放提取参数的池子
+extra_pool: {"token":''}
+
+test_case_type:  # 用例读取的来源  为True读取文件类型，为False不读取,如excel 和yaml都为True时 读取累加
+  - read: True  #  True  读取excle文件中的用例   False  不读取
+    test_case: ./data/case_excle/
+    file: xlsx
+    order: 1   #顺序
+
+  - read: True  #  True  False  读取yaml文件中的用例
+    test_case: ./data/case_yaml/
+    file: yaml
+    order: 0  #顺序
+
+file_path:
+  # test_case_xlsx: ./data/case_data.xlsx  弃用
+  test_case_excle : ./data/case_excle/  #读取目录下所以的excel数据
+  test_case_yaml: ./data/case_yaml/  #读取目录下所以的yaml数据
+  report: target/
+  log: log/run{time}.log
+
+email:
+  # 发件人邮箱
+  user:  3453453@163.com
+  # 发件人邮箱授权码
+  password:  3245345353
+  # 邮箱host
+  host:  smtp.163.com
+  contents:  解压allure-report.zip(接口测试报告)后，进入解压目录，运行Start_server.bat（需要有python环境），在浏览器输入http://127.0.0.1:5188/allure-report 即可查看测试报告。出现“Serving HTTP on 0.0.0.0 port 5188 (http://0.0.0.0:5188/) ...”表示服务启动完成，可以输入 http://127.0.0.1:5188/allure-report 地址查看报告
+  # 收件人邮箱
+  addressees: ["397135766@qq.com", "3453454353443534@163.com"] #["397135766@qq.com", "178999718@qq.com"]
+  title:  接口自动化测试报告(见附件)
+  # 附件
+  enclosures: ./report_zip/allure-report.zip
+
+# 数据库校验- mysql
+database:
+  #host: "192.168.1.183" #localhost  127.0.0.1
+  host: "127.0.0.1" #localhost  127.0.0.1
+  port: 3306
+  user: root
+  # 不用''会被解析成int类型数据
+  password: root
+  db_name:  mydb
+  charset:  utf8mb4
+
+  # 数据库所在的服务器配置
+  ssh_server:
+    port: 22
+    username: root
+    password: root
+    # 私有密钥文件路径
+    private_key_file: ''
+    # 私钥密码
+    privat_passowrd: ''
+    # 如果使用的docker容器部署mysql服务，需要传入mysql的容器id/name
+    mysql_container:
+    # 数据库备份文件导出的本地路径, 需要保证存在该文件夹
+    sql_data_file: ./backup_sqls/

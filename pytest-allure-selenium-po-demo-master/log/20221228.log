@@ -1,0 +1,79 @@
+[2022-12-28 10:36:49,070][read_yaml.py 9][INFO]: /config/test
+[2022-12-28 10:36:49,070][read_yaml.py 11][INFO]: F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\config\test\data.yaml
+[2022-12-28 10:36:51,193][conftest.py 58][INFO]: 驱动地址：C:\Users\huangpeng\.wdm\drivers\chromedriver\win32\108.0.5359\chromedriver.exe
+[2022-12-28 10:36:53,238][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\打开urlhttpswwwbaiducom截图_221228-103653.png
+[2022-12-28 10:36:53,251][base.py 71][INFO]: -元素('xpath', "//*[@class='mnav c-font-normal c-color-t']")已存在，等待0秒
+[2022-12-28 10:36:53,272][base.py 95][INFO]: -元素('xpath', "//*[@class='mnav c-font-normal c-color-t']")已可见，等待0秒
+[2022-12-28 10:36:53,272][base.py 234][INFO]: -查找所有匹配的元素：('xpath', "//*[@class='mnav c-font-normal c-color-t']")
+[2022-12-28 10:36:53,398][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\查找所有匹配的元素：[@classmnavcfontnormalccolort]截图_221228-103653.png
+[2022-12-28 10:36:53,400][func_all_bs.py 23][INFO]: {'elements': [<selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="4a90e241-8639-4a95-a82a-1b7b77191147")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="eebc2f78-a227-4866-bec9-c82631660b7c")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="9d24cc99-c0ba-4ef2-be8b-cd6f9f603843")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="50567e10-5f8f-410b-862b-3f36a9868d40")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="624d8c16-34c4-4f73-a051-e07dd317620a")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="90015f75-b76c-4081-8cf1-e036621564d4")>, <selenium.webdriver.remote.webelement.WebElement (session="60acbee808f138caa810c4801b2b5623", element="53947422-9aff-44c3-bcfa-eb4fc4b763eb")>], 'total': 7}
+[2022-12-28 10:37:01,686][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\获取窗口句柄截图_221228-103701.png
+[2022-12-28 10:37:01,688][base.py 391][INFO]: 切换句柄-切换到百度搜索界面
+[2022-12-28 10:37:02,201][base.py 414][INFO]: 切换【百度一下，你就知道】页面成功!-CDwindow-8CF3E4B030750866E85F8F1E9D55E526-CDwindow-8CF3E4B030750866E85F8F1E9D55E526
+[2022-12-28 10:37:02,304][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换句柄切换到百度搜索界面截图_221228-103702.png
+[2022-12-28 10:37:02,822][base.py 71][INFO]: 百度搜索框输入“mojin”-元素('id', 'kw')已存在，等待0秒
+[2022-12-28 10:37:03,349][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\百度搜索框输入mojin”截图_221228-103703.png
+[2022-12-28 10:37:03,350][base.py 156][INFO]: 百度搜索框输入“mojin”-元素('id', 'kw')输入：mojin
+[2022-12-28 10:37:03,886][base.py 71][INFO]: 点击搜索-元素('id', 'su')已存在，等待0秒
+[2022-12-28 10:37:03,955][base.py 95][INFO]: 点击搜索-元素('id', 'su')已可见，等待0秒
+[2022-12-28 10:37:04,114][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击搜索截图_221228-103704.png
+[2022-12-28 10:37:04,115][base.py 128][INFO]: 点击搜索-元素('id', 'su')点击成功
+[2022-12-28 10:37:04,327][base.py 391][INFO]: 切换句柄-切换到百度新闻界面
+[2022-12-28 10:37:04,893][base.py 414][INFO]: 切换【百度新闻——海量中文资讯平台】页面成功!-CDwindow-5D55053712F8C8A225ED02B76EE50E80-CDwindow-5D55053712F8C8A225ED02B76EE50E80
+[2022-12-28 10:37:05,144][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换句柄切换到百度新闻界面截图_221228-103704.png
+[2022-12-28 10:37:05,668][base.py 71][INFO]: 百度新闻搜索框输入“mojin”-元素('id', 'ww')已存在，等待0秒
+[2022-12-28 10:37:06,293][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\百度新闻搜索框输入mojin”截图_221228-103706.png
+[2022-12-28 10:37:06,298][base.py 156][INFO]: 百度新闻搜索框输入“mojin”-元素('id', 'ww')输入：mojin
+[2022-12-28 10:37:06,833][base.py 71][INFO]: 点击搜索-元素('id', 's_btn_wr')已存在，等待0秒
+[2022-12-28 10:37:06,854][base.py 95][INFO]: 点击搜索-元素('id', 's_btn_wr')已可见，等待0秒
+[2022-12-28 10:37:07,593][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击搜索截图_221228-103707.png
+[2022-12-28 10:37:07,594][base.py 128][INFO]: 点击搜索-元素('id', 's_btn_wr')点击成功
+[2022-12-28 10:37:07,806][base.py 391][INFO]: 切换句柄-切换到百度贴吧界面
+[2022-12-28 10:37:08,367][base.py 414][INFO]: 切换【百度贴吧——全球领先的中文社区】页面成功!-CDwindow-C8E669CB8FA820172937B27B0D6CDA2B-CDwindow-C8E669CB8FA820172937B27B0D6CDA2B
+[2022-12-28 10:37:08,684][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换句柄切换到百度贴吧界面截图_221228-103708.png
+[2022-12-28 10:37:09,204][base.py 71][INFO]: 百度贴吧搜索框输入“mojin”-元素('id', 'wd1')已存在，等待0秒
+[2022-12-28 10:37:09,837][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\百度贴吧搜索框输入mojin”截图_221228-103709.png
+[2022-12-28 10:37:09,838][base.py 156][INFO]: 百度贴吧搜索框输入“mojin”-元素('id', 'wd1')输入：mojin
+[2022-12-28 10:37:10,361][base.py 71][INFO]: 点击搜索-元素('xpath', '//*[@class="search_btn_wrap search_btn_enter_ba_wrap"]')已存在，等待0秒
+[2022-12-28 10:37:10,383][base.py 95][INFO]: 点击搜索-元素('xpath', '//*[@class="search_btn_wrap search_btn_enter_ba_wrap"]')已可见，等待0秒
+[2022-12-28 10:37:32,511][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击搜索截图_221228-103732.png
+[2022-12-28 10:37:32,513][base.py 128][INFO]: 点击搜索-元素('xpath', '//*[@class="search_btn_wrap search_btn_enter_ba_wrap"]')点击成功
+[2022-12-28 10:37:32,723][base.py 391][INFO]: 切换句柄-切换到百度搜索界面
+[2022-12-28 10:37:33,251][base.py 414][INFO]: 切换【mojin_百度搜索】页面成功!-CDwindow-8CF3E4B030750866E85F8F1E9D55E526-CDwindow-8CF3E4B030750866E85F8F1E9D55E526
+[2022-12-28 10:37:33,388][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换句柄切换到百度搜索界面截图_221228-103733.png
+[2022-12-28 10:37:33,911][base.py 71][INFO]: 百度搜索框输入“哈哈”-元素('id', 'kw')已存在，等待0秒
+[2022-12-28 10:37:34,478][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\百度搜索框输入哈哈”截图_221228-103734.png
+[2022-12-28 10:37:34,480][base.py 156][INFO]: 百度搜索框输入“哈哈”-元素('id', 'kw')输入：哈哈
+[2022-12-28 10:37:35,009][base.py 71][INFO]: 点击搜索-元素('id', 'su')已存在，等待0秒
+[2022-12-28 10:37:35,027][base.py 95][INFO]: 点击搜索-元素('id', 'su')已可见，等待0秒
+[2022-12-28 10:37:35,208][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击搜索截图_221228-103735.png
+[2022-12-28 10:37:35,209][base.py 128][INFO]: 点击搜索-元素('id', 'su')点击成功
+[2022-12-28 10:37:35,435][base.py 367][INFO]: 获取窗口句柄title：“mojin_百度搜索”
+[2022-12-28 10:37:35,595][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\获取窗口句柄title截图_221228-103735.png
+[2022-12-28 10:37:35,807][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\断言True截图_221228-103735.png
+[2022-12-28 10:37:35,811][conftest.py 127][INFO]: ['CDwindow-8CF3E4B030750866E85F8F1E9D55E526', 'CDwindow-C8E669CB8FA820172937B27B0D6CDA2B', 'CDwindow-5D55053712F8C8A225ED02B76EE50E80']
+[2022-12-28 10:37:37,145][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\打开urlhttpswwwwschoolcomcntiytaspfeg_html_form_radio截图_221228-103737.png
+[2022-12-28 10:37:37,371][base.py 71][INFO]: 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已存在，等待0秒
+[2022-12-28 10:37:37,391][base.py 95][INFO]: 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已可见，等待0秒
+[2022-12-28 10:37:37,552][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击iframe外的运行代码按钮截图_221228-103737.png
+[2022-12-28 10:37:37,554][base.py 128][INFO]: 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')点击成功
+[2022-12-28 10:37:37,812][base.py 317][INFO]: 切换进入iframe-进入表单切换iframe成功，等待0秒
+[2022-12-28 10:37:37,915][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换进入iframe截图_221228-103737.png
+[2022-12-28 10:37:38,963][base.py 71][INFO]: 点击选中Female中的female按钮-元素('xpath', '//*[@value="female"]')已存在，等待0秒
+[2022-12-28 10:37:38,991][base.py 95][INFO]: 点击选中Female中的female按钮-元素('xpath', '//*[@value="female"]')已可见，等待0秒
+[2022-12-28 10:37:39,150][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击选中Female中的female按钮截图_221228-103739.png
+[2022-12-28 10:37:39,151][base.py 128][INFO]: 点击选中Female中的female按钮-元素('xpath', '//*[@value="female"]')点击成功
+[2022-12-28 10:37:40,250][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\退出当前iframe层截图_221228-103740.png
+[2022-12-28 10:37:40,251][base.py 348][INFO]: 退出当前iframe层
+[2022-12-28 10:37:40,350][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\退出最外层iframe截图_221228-103740.png
+[2022-12-28 10:37:40,351][base.py 355][INFO]: 退出最外层iframe
+[2022-12-28 10:37:40,582][base.py 71][INFO]: 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已存在，等待0秒
+[2022-12-28 10:37:40,631][base.py 95][INFO]: 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已可见，等待0秒
+[2022-12-28 10:37:40,790][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击iframe外的运行代码按钮截图_221228-103740.png
+[2022-12-28 10:37:40,792][base.py 128][INFO]: 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')点击成功
+[2022-12-28 10:37:41,025][base.py 71][INFO]: -元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已存在，等待0秒
+[2022-12-28 10:37:41,057][base.py 281][INFO]: -元素('xpath', '//*[@id="tiy_btn_tryit"]/a')的文本内容-【运行代码】
+[2022-12-28 10:37:41,152][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\获取元素text内容：运行代码截图_221228-103741.png
+[2022-12-28 10:37:41,267][base.py 43][INFO]: 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\断言True截图_221228-103741.png
+[2022-12-28 10:37:41,271][conftest.py 127][INFO]: ['CDwindow-8CF3E4B030750866E85F8F1E9D55E526']
+[2022-12-28 10:37:41,273][conftest.py 37][INFO]: 全部用例执行完后 teardown quit dirver1

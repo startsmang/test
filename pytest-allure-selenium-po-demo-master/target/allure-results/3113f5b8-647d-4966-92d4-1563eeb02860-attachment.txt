@@ -1,0 +1,25 @@
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\打开urlhttpswwwwschoolcomcntiytaspfeg_html_form_radio截图_221228-103737.png
+INFO     log:base.py:71 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已存在，等待0秒
+INFO     log:base.py:95 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已可见，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击iframe外的运行代码按钮截图_221228-103737.png
+INFO     log:base.py:128 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')点击成功
+INFO     log:base.py:317 切换进入iframe-进入表单切换iframe成功，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\切换进入iframe截图_221228-103737.png
+INFO     log:base.py:71 点击选中Female中的female按钮-元素('xpath', '//*[@value="female"]')已存在，等待0秒
+INFO     log:base.py:95 点击选中Female中的female按钮-元素('xpath', '//*[@value="female"]')已可见，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击选中Female中的female按钮截图_221228-103739.png
+INFO     log:base.py:128 点击选中Female中的female按钮-元素('xpath', '//*[@value="female"]')点击成功
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\退出当前iframe层截图_221228-103740.png
+INFO     log:base.py:348 退出当前iframe层
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\退出最外层iframe截图_221228-103740.png
+INFO     log:base.py:355 退出最外层iframe
+INFO     log:base.py:71 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已存在，等待0秒
+INFO     log:base.py:95 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已可见，等待0秒
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\点击iframe外的运行代码按钮截图_221228-103740.png
+INFO     log:base.py:128 点击iframe外的运行代码按钮-元素('xpath', '//*[@id="tiy_btn_tryit"]/a')点击成功
+INFO     log:base.py:71 -元素('xpath', '//*[@id="tiy_btn_tryit"]/a')已存在，等待0秒
+INFO     log:base.py:281 -元素('xpath', '//*[@id="tiy_btn_tryit"]/a')的文本内容-【运行代码】
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\获取元素text内容：运行代码截图_221228-103741.png
+INFO     log:base.py:43 截图成功，文件路径:F:\原D\Python\python3\selenium\pytest-allure-selenium-po-demo\png\断言True截图_221228-103741.png
+INFO     log:conftest.py:127 ['CDwindow-8CF3E4B030750866E85F8F1E9D55E526']
+INFO     log:conftest.py:37 全部用例执行完后 teardown quit dirver1

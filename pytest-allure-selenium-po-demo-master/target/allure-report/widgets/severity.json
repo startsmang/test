@@ -1,0 +1,1 @@
+[{"uid":"167e2082c5d35a37","name":"iframe切换后操作","time":{"start":1672195055954,"stop":1672195061268,"duration":5314},"status":"passed","severity":"blocker"},{"uid":"19ab293c7a6d5f31","name":"百度搜索新闻句柄切换","time":{"start":1672195012550,"stop":1672195055809,"duration":43259},"status":"passed","severity":"blocker"}]
