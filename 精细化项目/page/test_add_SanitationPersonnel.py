@@ -91,6 +91,9 @@ def test_sanitationPersonnel():
     driver.find_element(By.XPATH,'/html/body/div[6]/div[1]/div[1]/ul/li[1]').click()
     sleep(1)
     driver.find_element(By.XPATH,'//*[@id="app"]/div/div[2]/section/div/div/div[2]/div/button[1]/span').click()
+    ale = driver.switch_to.alert
+    ale.dissmiss()
+    ale.
 # def test_quit():
 #     driver.find_element(By.XPATH,'//*[@id="app"]/div/div[2]/div/div/div[5]/div[3]/div/img').click()
 #     sleep(1)
@@ -100,5 +103,6 @@ def test_sanitationPersonnel():
 #     assert '福城管' in tittle
 if __name__ == '__main__':
     pytest.main(['--vs'])
+
 
 
